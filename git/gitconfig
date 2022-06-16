@@ -1,0 +1,15 @@
+user]
+  name = redroot
+[push]
+  default = current
+[alias]
+  aa = add --all
+  br = for-each-ref --sort=-committerdate --format=\"%(color:blue)%(authordate:relative)\t%(color:red)%(authorname)\t%(color:white)%(color:bold)%(refname:short)\" refs/remotes
+  ci = commit -v
+  ca = commit -v -am
+  co = checkout
+  pf = push
+  st = status
+  di = diff
+[color]
+  ui = auto

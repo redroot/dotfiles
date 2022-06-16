@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+alias gca='git commit -v -am'
+alias gpr='git pull --rebase'
