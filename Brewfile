@@ -10,6 +10,7 @@ brew "ripgrep"
 brew "the_silver_searcher"
 brew "tmux"
 brew "bat"
+brew "textql"
 
 # Security
 brew "openssl"
